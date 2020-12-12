@@ -1,8 +1,10 @@
 # Description
-This program generates a 2-player Tron game.  Controls for player 1 are W,A,S,D for directions and LSHIFT for boost.  COntrols for player 2 are UP,LEFT,DOWN,RIGHT for directions and RSHIFT for boost.
+This program is a simple ToDo list run on the Django framework.  It allows adding and deleting of items to and from the list and is editable by anyone with the link. This can be used to have a single ToDo list for a household that syncs across devices.
 
 # Execution
-
+You will need to install pipenv and django to host this program.  Both can be installed with pip.  To start the server, open the project in a pipenv and run \
+`python manage.py runserver` \
+You will then recieve an ip address. Copy that into your browser of choice followed by `/todo/`
 
 
 ![example of running code](example_1.png)
